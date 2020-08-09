@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*!
-* Start Bootstrap - Resume v6.0.1 (https://startbootstrap.com/template-overviews/resume)
-* Copyright 2013-2020 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
+* Start Bootstrap - undefined v1.0.0 (https://github.com/Cpike95/Portfolio-update#readme)
+* Copyright 2013-2020 
+* Licensed under ISC (https://github.com/StartBootstrap/portfolio-update/blob/master/LICENSE)
 */
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
@@ -2025,10 +2025,6 @@ pre code {
   border-color: #e0aa95;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(189, 93, 56, 0.25);
-}
-.form-control::-webkit-input-placeholder {
-  color: #6c757d;
-  opacity: 1;
 }
 .form-control::-moz-placeholder {
   color: #6c757d;
