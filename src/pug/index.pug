@@ -18,6 +18,7 @@ html(lang='en')
         // Google fonts
         link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
         link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+        link(href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css", rel="stylesheet")
 
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
@@ -37,15 +38,17 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#about') About
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#projects') Projects
-                    li.nav-item
                         a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#education') Education
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#awards') Interests
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href="https://docs.google.com/document/d/1AIAaFEFbeJ3-DriRGxvyGA2Cnox3SvpQAhn3K0RRVf4/edit?usp=sharing") Resume
 
         // Page Content
         .container-fluid.p-0
@@ -68,8 +71,7 @@ html(lang='en')
                             i.fab.fa-github
                         a.social-icon(href='#')
                             i.fab.fa-twitter
-                        a.social-icon(href='#')
-                            i.fab.fa-facebook-f
+                        
 
             hr.m-0
 
@@ -83,7 +85,7 @@ html(lang='en')
                             h3.mb-0 Internship
                             .subheading.mb-3 Tuition IO
                             p
-                                | HTML, CSS, design and layout as well as basic Javascript functionality on a back end application for there customer rep team.
+                                | HTML, CSS, design and layout as well as basic Javascript functionality on a back end application for there customer rep team. Working in a team of 4 we were each tasked with building portions of this application. My contributions included design, structure and functionaility of 2 pages that required modals and email funtionality which I accomplished with the use of Javascript and an SMTP connection to Gmail. I was able to send emails to the admin using Javascript code.
                         .flex-shrink-0
                             span.text-primary May 2020 
 
@@ -92,7 +94,7 @@ html(lang='en')
                             h3.mb-0 Internship
                             .subheading.mb-3 Dubsado
                             p
-                                | Back end development for registering, logging users for a scheduler application.
+                                | Working in a group of 3 each of us were assigned a different task to complete for this scheduler application.. I was tasked with the Back end development for registering, logging users where I used Regex for user input validation, and Mysql and sequileze as our database to store the users information. Using Passport.js I was also able to encrypt and decrypt users passwords as user authentication.  My contributions include 
                         .flex-shrink-0
                             span.text-primary June 2020
 
@@ -158,6 +160,13 @@ html(lang='en')
                             i.fab.fa-node-js
                         li.list-inline-item
                             i.fab.fa-npm
+                        li.list-inline-item
+                            <i class="devicon-mongodb-plain" alt="mongodb" ></i>
+                        li.list-inline-item
+                            <i class="devicon-sequelize-plain" alt="sequelize"></i>
+                        li.list-inline-item
+                            <i class="devicon-jquery-plain" alt="JQuery"></i>
+
                     .subheading.mb-3 Workflow
                     ul.fa-ul.mb-0
                         li
